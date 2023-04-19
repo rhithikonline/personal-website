@@ -1,0 +1,583 @@
+body{
+    background-color: black;
+}
+
+/*navicatton bar*/ 
+
+ /* Define the slow slide-down animation */
+ @keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the slow slide-down animation to the div element */
+.nav-bar-main-div-container{
+  animation-name: slide-down;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+
+
+
+.nav-bar{
+    text-shadow: #333;
+  }
+  
+  header {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+  
+  .menu ul li {
+    margin: 0 10px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    color: #555;
+  }
+  
+  .menu-icon {
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 24px;
+  }
+  
+  @media(max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+    
+    .menu {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background: #333;
+    }
+    
+    .menu.active {
+      display: block;
+    }
+    
+    .menu ul {
+      display: block;
+      text-align: center;
+    }
+    
+    .menu ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    .menu ul li a {
+      font-size: 18px;
+    }
+  }
+
+/* navbar two*/
+/* navbar two*/
+/* navbar two*/
+
+ /* Style for the navigation bar */
+ .navbar-two {
+  background-color: transparent;
+  overflow: hidden;
+  position: absolute;
+  left: 550px;
+  top: 20px;
+  width: 1000px;
+  height: 50px;
+  display: flex;
+}
+
+/* Style for the navigation bar links */
+.navbar-two a {
+  float: left;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Style for the navigation bar icons */
+.navbar-two i {
+  margin-right: 8px;
+  display: flex;
+}
+ 
+/*first-box*/
+/*first-box*/
+/*first-box*/
+
+.first-box{
+    color: #FF6700;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    background-color: white;
+    display: block;
+}
+
+#first-div-first-text{
+  position: absolute;
+  top: 10px;
+  left: 90px;
+  font-size: 35px;
+}
+
+   /* Define the drop-down animation */
+   @keyframes drop-down {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Apply the drop-down animation to the div element */
+  .first-box {
+    animation-name: drop-down;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+  }
+
+
+ /*seound box*/
+ /*seound box*/
+ /*seound box*/
+
+
+.secound-box{
+  color: #FF6700;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 600px;
+  left: 470px;
+  background-color: white;
+  display: block;
+
+}
+
+#secound-div-first-text{
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  font-size: 35px;
+}
+
+/* Define the drop-down animation */
+@keyframes drop-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the drop-down animation to the div element */
+.secound-box {
+  animation-name: drop-down;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+
+
+/*third box */
+
+.third-box{
+  color: #FF6700;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 600px;
+  left: 910px;
+  background-color: white;
+  display: block;
+}
+
+#-third-div-first-text{
+  position: absolute;
+  top: 10px;
+  left: 130px;
+  font-size: 35px;
+}
+
+
+/* Define the drop-down animation */
+@keyframes drop-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the drop-down animation to the div element */
+.third-box {
+  animation-name: drop-down;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+/*innfrmation box*/
+
+.information-box{
+  background: #c90e0e;
+  display: block;
+}
+
+/*about option */
+.deatilles{
+  background-color: white;
+  position: absolute;
+  top: 2000px;
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: white;
+}
+
+.more li {
+  color: white;
+  z-index: 9999;
+  justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+  color: white;
+  text-shadow: #333
+}
+
+.Contact{
+  position: absolute;
+  top: 80px;
+  left: 280px;
+}
+
+.home{
+  position: absolute;
+  top: 80px;
+  left: 430px;
+}
+
+.About{
+  position: absolute;
+  top: 80px;
+  left: 580px;
+}
+
+.Service{
+  position: absolute;
+  top: 80px;
+  left: 730px;
+}
+
+.Other-works{
+  position: absolute;
+  top: 80px;
+  left: 880px;
+}
+
+.Feedback{
+  position: absolute;
+  top: 80px;
+  left: 1030px;
+}
+
+    /*button*/
+     /*button*/
+      /*button*/
+
+    /* Style for the Instagram button */
+    .instagram-button {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #E1306C;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      position: absolute;
+      top: 150px;
+      left: 170px;
+    }
+
+   
+
+    /* Style for the Instagram logo */
+    .instagram-icon {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 8px;
+    }    
+
+    /**/
+    /**/
+
+
+
+ /* Style for the GitHub button */
+ .github-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color:  black;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  left: 440px;
+}
+
+/* Style for the GitHub logo */
+.github-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}    
+
+/* Style for the YouTube button */
+.youtube-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #FF0000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  left: 980px;
+}
+
+/* Style for the YouTube logo */
+.youtube-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+ /* Style for the Facebook button */
+ .facebook-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #1877F2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 150px; 
+  left: 710px;
+}
+
+/* Style for the Facebook logo */
+.facebook-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/*first impresition*/
+
+H3{
+  color: #FF6700;
+}
+
+
+#hello{
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  font-size: 30px;
+}
+
+#i-am{
+  position: absolute;
+  top: 220px;
+  left:120px ;
+  font-size: 50px;
+}
+
+#student{
+  position: absolute;
+  top: 290px;
+  left: 120px;
+  font-size: 40px;
+}
+
+ /* Define the slide-left animation */
+ @keyframes slide-right {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+/* Apply the slide-left animation to the div element */
+.first-imprestion {
+  animation-name: slide-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+
+
+/*youtube vedio link*/
+/*youtube vedio link*/
+
+.youtube-vedio-container{
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  
+  position: absolute;
+  top: 1250px;
+  left: -5px;
+}
+
+
+/* h4 animation youtube vedio */
+/* Define the slide-right animation */
+@keyframes slide-right {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the slide-right animation to the h2 element */
+h4 {
+  animation-name: slide-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  position: absolute;
+  font-size: 30px;
+  top: -55px;
+  padding: 10px;
+  border-radius: 10px;
+  left: 15px;
+  color: #FF6700;
+  background-color: white;
+  box-shadow: #555 0px 0px 10px 0px;
+ 
+}
+
+#first-line{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  display: flex; /* Use flexbox layout for the container */
+  gap: 20px; /* Adds 20 pixels gap between each iframe element */
+}
+iframe {
+  flex: 1; /* Allows the iframe elements to grow and fill the container evenly */
+  
+}
+
+#secound-line{
+  position: absolute;
+  top: 260px;
+  left: 40px;
+  display: flex; /* Use flexbox layout for the container */
+  gap: 20px; /* Adds*/
+}
+
+/*view-channel-popup-button*/
+
+.view-channel-popup-button{
+  position: absolute;
+  top: 260px;
+  right: 50px;
+  width: 300px;
+  height: 200px;
+  
+  font-size: 20px;
+}
